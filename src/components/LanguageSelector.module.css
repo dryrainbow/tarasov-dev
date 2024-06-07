@@ -1,0 +1,22 @@
+.LanguageSelector {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin: auto;
+}
+
+.LanguageSelector>img {
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 1080px) {
+  .LanguageSelector {
+    position: absolute;
+    right: var(--gap-md);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

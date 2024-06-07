@@ -1,0 +1,79 @@
+@import 'normalize.css';
+
+:root {
+  --clr-bg: hsl(260, 20%, 3%);
+  --clr-bg-secondary: hsl(260, 20%, 16%);
+  --clr-bg-trietary: hsl(260, 20%, 11%);
+  --clr-text: white;
+  --clr-text-secondary: hsl(0, 0%, 75%);
+
+  --gap-sm: 18px;
+  --gap-md: 36px;
+  --gap-lg: 72px;
+  --gap-xl: 144px;
+
+  --radius-md: 12px;
+
+  --ff-default: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --font-sm: normal normal 300 16px var(--ff-default);
+  --font-md: normal normal 400 18px var(--ff-default);
+}
+
+.App {
+  padding-bottom: var(--gap-xl);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--clr-text);
+  font: var(--font-md);
+  text-align: center;
+  background: var(--clr-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input,
+textarea {
+  background: var(--clr-bg-secondary);
+  border: none;
+  padding: var(--gap-sm);
+  border-radius: var(--radius-md);
+  display: inline-block;
+  color: var(--clr-text);
+}
+
+textarea {
+  resize: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--clr-text-secondary);
+}

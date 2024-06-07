@@ -1,0 +1,26 @@
+.Projects {
+  padding: var(--gap-lg) var(--gap-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap-lg);
+  margin: auto;
+  max-width: 980px;
+}
+
+@media screen and (max-width: 1080px) {
+  .Projects {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: var(--gap-sm);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Projects {
+    padding: var(--gap-lg) var(--gap-sm);
+  }
+}

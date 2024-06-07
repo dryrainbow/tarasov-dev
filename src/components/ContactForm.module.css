@@ -1,0 +1,31 @@
+.ContactForm {
+  position: relative;
+  padding: var(--gap-md);
+  margin-left: var(--gap-xl);
+  margin-right: var(--gap-xl);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form>* {
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin-bottom: var(--gap-sm);
+}
+
+.submit {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+  .ContactForm {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

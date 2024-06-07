@@ -1,0 +1,20 @@
+{
+  "lang": "en",
+  "my_name": "Matvei Tarasov",
+  "tagline": "Fullstack developer",
+  "this_desc": "This website",
+  "flexpatrol_desc": "A landing page for friends with videos and info on game servers and their status.",
+  "games_desc": "A page with a list of my games avaliable to play.",
+  "warframe_desc": "A service that monitors prices of items on warframe.market and calculates profitable gaps between them.",
+  "worktime_desc": "A PWA that I use daily to track my time spent working. Full offline support.",
+  "studybuddy_desc": "A PWA for splitting into groups or taking topics for an assignment.",
+  "mockup_desc": "A npm component leveraging three.js to make interactive 3D phone mockups.",
+  "vkmute_desc": "A Browser extension that allows you to mute people in group chats on VK.com.",
+  "musanthrope_desc": "A landing page for a music pack mod for PAYDAY 2 made by Musanthrope.",
+  "bakery_desc": "A mock bakery website. Has a map with all locations and a list of all items being sold.",
+  "sleepycare_desc": "Your sleeping assistant. Helps you sleep better and fall asleep easier.\n\n Sleeping tips, soundscape generation and sharing, dream journal.",
+  "name": "Your name",
+  "message": "Ask me to make your next highly custom experience",
+  "email": "Your email",
+  "submit": "Submit"
+}

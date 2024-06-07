@@ -1,0 +1,8 @@
+.Links {
+  position: absolute;
+  bottom: var(--gap-lg);
+}
+
+.Links>a {
+  margin: 0 var(--gap-sm);
+}
